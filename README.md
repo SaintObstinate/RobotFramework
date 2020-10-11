@@ -19,7 +19,11 @@ https://chromedriver.chromium.org/downloads
 
 4- Salve o arquivo
 
-5- Abra um prompt de comando na pasta robot/web/tests e execute o comando: robot login.robot
+5- Abra um prompt de comando na pasta robot/web/tests e execute o comando: 
+```bash 
+robot login.robot 
+```
 
+## Conclusão
 Dois testes deverão ser rodados e no final deles, uma Screenshot deverá aparecer dentro da pasta mostrando o resultado de ambos
 
