@@ -11,15 +11,28 @@ https://chromedriver.chromium.org/downloads
 
 ## Como rodar:
 
-1- Acesse a pasta robot/web/tests
 
-2- Abra o arquivo login.robot com qualquer editor de texto
 
-3- Edite o caso de teste de "Fazer Login" com um usuário e senha corretos do site da Kabum
+1- Instale o RobotFramework no sistema. Em um prompt de comando execute:
+```bash
+pip install robotframework
+```
 
-4- Salve o arquivo
+2- Depois instale a biblioteca do Selenium para o robotframework utilizando do comando: 
 
-5- Abra um prompt de comando na pasta robot/web/tests e execute o comando: 
+```bash
+  pip install robotframework-seleniumlibrary
+```
+
+3- Acesse a pasta robot/web/tests
+
+4- Abra o arquivo login.robot com qualquer editor de texto
+
+5- Edite o caso de teste de "Fazer Login" com um usuário e senha corretos do site da Kabum
+
+6- Salve o arquivo
+
+7- Abra um prompt de comando na pasta robot/web/tests e execute o comando: 
 ```bash 
 robot login.robot 
 ```
