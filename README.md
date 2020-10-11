@@ -4,7 +4,9 @@ Automação de teste de login válido e inválido utilizando o robotframework e 
 ## Pré requisitos:
 
 Python 3.8 ou superior instalado na máquina, juntamente como o gerenciador de pacotes.
+
 Chromedriver colocado dentro do PATH do python instalado. Obtenha o driver nesse link:
+
 https://chromedriver.chromium.org/downloads
 
 ## Como rodar:
